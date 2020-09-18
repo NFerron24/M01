@@ -1,0 +1,119 @@
+@media (max-width: 1240px) {
+  .mobile-container {
+    display: grid;
+    font-family: "Times New Roman", Times, serif;
+    grid-gap: 3px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 40px 200px 150px 40px;
+    justify-content: center;
+  }
+  .site-header {
+    display: grid;
+    font-size: 40px;
+    background-color: rgb(149, 93, 240);
+    color: ivory;
+    grid-column: 1/-1;
+  }
+  .site-main {
+    display: grid;
+    font-size: 25px;
+    background-color: rgb(130, 223, 171);
+    color: ivory;
+    grid-column: 1/-1;
+  }
+  .widget-area {
+    display: grid;
+    background-color: rgb(40, 70, 241);
+    color: ivory;
+    grid-column: 1/-1;
+  }
+  .site-footer {
+    display: grid;
+    font-size: 20px;
+    background-color: rgb(241, 189, 146);
+    color: ivory;
+    grid-column: 1/-1;
+  }
+}
+@media (min-width: 900px) {
+  .mobile-container {
+    display: grid;
+    font-family: "Times New Roman", Times, serif;
+    grid-gap: 3px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 400px 20px 150px 40px;
+    justify-content: center;
+  }
+  .site-header {
+    display: grid;
+    font-size: 40px;
+    background-color: rgb(149, 93, 240);
+    color: ivory;
+    grid-column: 1/1;
+    grid-row: 1/6;
+  }
+  .site-main {
+    display: grid;
+    font-size: 25px;
+    background-color: rgb(130, 223, 171);
+    color: ivory;
+    grid-column: 2/-1;
+    grid-row: 1/1;
+  }
+  .widget-area {
+    display: grid;
+    background-color: rgb(40, 70, 241);
+    color: ivory;
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+  }
+  .site-footer {
+    display: grid;
+    font-size: 20px;
+    background-color: rgb(241, 189, 146);
+    color: ivory;
+    grid-column: 2/-1;
+    grid-row: -1/-1;
+  }
+}
+@media (min-width: 1240px) {
+  .mobile-container {
+    display: grid;
+    font-family: "Times New Roman", Times, serif;
+    grid-gap: 3px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 40px 200px 150px 40px;
+    justify-content: center;
+  }
+  .site-header {
+    display: grid;
+    font-size: 40px;
+    background-color: rgb(149, 93, 240);
+    color: ivory;
+    grid-column: 1/1;
+    grid-row: 1/6;
+  }
+  .site-main {
+    display: grid;
+    font-size: 25px;
+    background-color: rgb(130, 223, 171);
+    color: ivory;
+    grid-column: 2/-2;
+    grid-row: 1/6;
+  }
+  .widget-area {
+    display: grid;
+    background-color: rgb(40, 70, 241);
+    color: ivory;
+    grid-column: 5/-1;
+    grid-row: 1/6;
+  }
+  .site-footer {
+    display: grid;
+    font-size: 20px;
+    background-color: rgb(241, 189, 146);
+    color: ivory;
+    grid-column: 1/-1;
+    grid-column: 2/-2;
+  }
+}

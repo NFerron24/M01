@@ -1,0 +1,186 @@
+@media (max-width: 1024px) {
+  body {
+    color: rgb(15, 84, 214);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: rgb(126, 235, 220);
+    text-align: center;
+  }
+  .header-text {
+    color: rgb(15, 84, 214);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 90px;
+    padding-left: 10px;
+    padding-left: 10px;
+    border-bottom: 10px rgb(3, 3, 78) solid;
+    border-left: 10px rgb(3, 3, 78) solid;
+    border-top: 2px rgb(3, 3, 78) solid;
+    border-right: 2px rgb(3, 3, 78) solid;
+  }
+  .img {
+    border-bottom: 10px rgb(3, 3, 78) solid;
+    border-left: 10px rgb(3, 3, 78) solid;
+    border-top: 2px rgb(3, 3, 78) solid;
+    border-right: 2px rgb(3, 3, 78) solid;
+  }
+  .box-1 {
+    background-color: rgb(59, 136, 172);
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    text-align: auto;
+    border-bottom: 10px rgb(42, 104, 218) solid;
+    border-left: 10px rgb(42, 104, 218) solid;
+    padding-bottom: 15 px;
+    padding: 15px 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .gold-border {
+    background-color: gold;
+    border-top: 2px solid gold;
+    border-right: 2px solid gold;
+    border-left: 5px solid rgb(202, 172, 3);
+    border-bottom: 5px solid rgb(197, 168, 4);
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+  }
+
+  .links {
+    display: inline-block;
+    background-color: gold;
+    border-top: 2px solid gold;
+    border-right: 2px solid gold;
+    border-left: 5px solid rgb(202, 172, 3);
+    border-bottom: 5px solid rgb(197, 168, 4);
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+  }
+
+  li {
+    display: inline-block;
+    color: rgb(42, 104, 218);
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav {
+    text-align: center;
+    font-weight: bold;
+  }
+  .hobbies {
+    color: antiquewhite;
+    background-color: rgb(23, 122, 23);
+    border-top: 2px solid rgb(98, 173, 98);
+    border-right: 2px solid rgb(98, 173, 98);
+    border-left: 5px solid rgb(56, 107, 56);
+    border-bottom: 5px solid rgb(56, 107, 56);
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    color: rgb(8, 41, 102);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 5;
+    background-color: rgb(148, 235, 126);
+    text-align: center;
+  }
+  .header-text {
+    color: rgb(15, 84, 214);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 90px;
+    padding-left: 10px;
+    padding-left: 10px;
+    border-bottom: 10px rgb(3, 3, 78) solid;
+    border-left: 10px rgb(3, 3, 78) solid;
+    border-top: 2px rgb(3, 3, 78) solid;
+    border-right: 2px rgb(3, 3, 78) solid;
+  }
+  .img {
+    border-bottom: 10px rgb(3, 3, 78) solid;
+    border-left: 10px rgb(3, 3, 78) solid;
+    border-top: 2px rgb(3, 3, 78) solid;
+    border-right: 2px rgb(3, 3, 78) solid;
+  }
+  .box-1 {
+    background-color: rgb(59, 136, 172);
+    color: pink;
+    font-size: 15px;
+    text-align: center;
+    width: 60%;
+    text-align: auto;
+    border-bottom: 10px rgb(42, 104, 218) solid;
+    border-left: 10px rgb(42, 104, 218) solid;
+    padding-bottom: 15 px;
+    padding: 15px 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .gold-border {
+    background-color: gold;
+    border-top: 2px solid gold;
+    border-right: 2px solid gold;
+    border-left: 5px solid rgb(202, 172, 3);
+    border-bottom: 5px solid rgb(197, 168, 4);
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+  }
+
+  .links {
+    display: inline-block;
+    background-color: gold;
+    border-top: 2px solid gold;
+    border-right: 2px solid gold;
+    border-left: 5px solid rgb(202, 172, 3);
+    border-bottom: 5px solid rgb(197, 168, 4);
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+  }
+
+  li {
+    display: inline-block;
+    color: rgb(42, 104, 218);
+    text-align: center;
+    padding: 10px;
+  }
+  nav {
+    text-align: center;
+    font-weight: bold;
+  }
+  .hobbies {
+    color: antiquewhite;
+    background-color: rgb(23, 122, 23);
+    border-top: 2px solid rgb(98, 173, 98);
+    border-right: 2px solid rgb(98, 173, 98);
+    border-left: 5px solid rgb(56, 107, 56);
+    border-bottom: 5px solid rgb(56, 107, 56);
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+  }
+}

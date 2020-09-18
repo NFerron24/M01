@@ -1,0 +1,41 @@
+body {
+  color: rgb(105, 10, 160);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(225, 235, 172);
+  text-align: center;
+}
+h1,
+h2 {
+  color: rgb(36, 4, 112);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+.gold-border {
+  border: 5px solid gold;
+  width: auto;
+}
+nav {
+  text-align: center;
+  font-weight: bold;
+}
+.black-border-small {
+  color: hotpink;
+  border: 5px solid black;
+  width: 160px;
+}
+.text-font {
+  font-family: "Lucida Sans";
+}
+.box-1 {
+  background-color: rgb(135, 135, 136);
+  color: aliceblue;
+  text-align: center;
+  width: 60%;
+  text-align: auto;
+  border-bottom: 10px rgb(59, 59, 59) solid;
+  border-left: 10px rgb(59, 59, 59) solid;
+  padding-bottom: 15 px;
+  padding: 15px 15px;
+  margin: auto;
+  border-radius: 10px;
+}

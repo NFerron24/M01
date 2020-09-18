@@ -1,0 +1,366 @@
+body {
+  background-image: url(background_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  font-family: "Roboto", sans-serif;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgb(177, 175, 175);
+  margin: -10px -10px 10px -10px;
+}
+li {
+  list-style-type: none;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  position: relative;
+  right: 5px;
+  padding: 25px 15px;
+  margin: -15px;
+}
+.headnavigatie {
+  position: relative;
+  top: 1px;
+  right: 5px;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 17px;
+  background-color: rgb(224, 224, 224);
+}
+.headnavigatie a {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  border-color: black;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  opacity: 0.8;
+}
+.headnavigatie a:hover {
+  background-color: rgb(83, 83, 83);
+  padding: 10px 15px 10px 15px;
+  color: #f2f2f2;
+}
+.container {
+  display: grid;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  grid-gap: 5px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 250px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "Zu"
+    "bisal"
+    "Ze"
+    "clown"
+    "Bi"
+    "bosbes";
+}
+.Zu {
+  background-color: rgb(243, 243, 243);
+  font-family: "Roboto", sans-serif;
+  border-top: 2px rgb(36, 36, 36) solid;
+  border-right: 2px rgb(36, 36, 36) solid;
+  border-bottom: 8px rgb(0, 0, 0) solid;
+  border-left: 8px rgb(0, 0, 0) solid;
+  grid-area: Zu;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Ze {
+  background-color: rgb(243, 243, 243);
+  border-top: 2px rgb(36, 36, 36) solid;
+  border-right: 2px rgb(36, 36, 36) solid;
+  border-bottom: 8px rgb(0, 0, 0) solid;
+  border-left: 8px rgb(0, 0, 0) solid;
+  grid-area: Ze;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Bi {
+  background-color: rgb(243, 243, 243);
+  border-top: 2px rgb(36, 36, 36) solid;
+  border-right: 2px rgb(36, 36, 36) solid;
+  border-bottom: 8px rgb(0, 0, 0) solid;
+  border-left: 8px rgb(0, 0, 0) solid;
+  grid-area: Bi;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Bisal {
+  background-color: rgb(243, 243, 243);
+  border-top: 2px rgb(36, 36, 36) solid;
+  border-right: 2px rgb(36, 36, 36) solid;
+  border-bottom: 8px rgb(0, 0, 0) solid;
+  border-left: 8px rgb(0, 0, 0) solid;
+  grid-area: bisal;
+  overflow: auto;
+}
+.bisalimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bisaltext {
+  position: relative;
+  right: 2px;
+  font-size: 16px;
+}
+.clown {
+  background-color: rgb(243, 243, 243);
+  border-top: 2px rgb(36, 36, 36) solid;
+  border-right: 2px rgb(36, 36, 36) solid;
+  border-bottom: 8px rgb(0, 0, 0) solid;
+  border-left: 8px rgb(0, 0, 0) solid;
+  grid-area: clown;
+  overflow: auto;
+}
+.clownimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clowntext {
+  position: relative;
+  right: 2px;
+  font-size: 16px;
+}
+.bosbes {
+  background-color: rgb(243, 243, 243);
+  border-top: 2px rgb(36, 36, 36) solid;
+  border-right: 2px rgb(36, 36, 36) solid;
+  border-bottom: 8px rgb(0, 0, 0) solid;
+  border-left: 8px rgb(0, 0, 0) solid;
+  grid-area: bosbes;
+  overflow: auto;
+}
+.bosbesimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bosbestext {
+  position: relative;
+  right: 2px;
+  font-size: 16px;
+}
+.contacthead {
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  top: 30px;
+}
+input,
+label,
+textarea {
+  display: block;
+  margin-right: 10%;
+  position: relative;
+  left: 5%;
+}
+.name {
+  color: black;
+  font-size: 15px;
+  font-size: bold;
+}
+.email {
+  color: black;
+  font-size: 15px;
+}
+.message {
+  color: black;
+  font-size: 15px;
+}
+.formulier {
+  border-radius: 8px;
+  background-color: silver;
+  padding: 20px;
+  margin-bottom: 200px;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  bottom: -190px;
+}
+.box-1 {
+  background-color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 60%;
+  text-align: auto;
+  border-top: 2px rgb(36, 36, 36) solid;
+  border-right: 2px rgb(36, 36, 36) solid;
+  border-bottom: 8px rgb(0, 0, 0) solid;
+  border-left: 8px rgb(0, 0, 0) solid;
+  padding-bottom: 15px;
+  padding: 15px 15px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  display: fixed;
+  top: 500px;
+  left: 30%;
+}
+@media (min-width: 1024px) {
+  body {
+    background-image: url(background_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    font-family: "Roboto", sans-serif;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header {
+    background-color: rgb(224, 224, 224);
+    margin: -10px -10px 10px -10px;
+  }
+  li {
+    display: inline-block;
+    list-style-type: none;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    position: relative;
+    right: 5px;
+    padding: 25px 15px;
+    margin: 30px;
+  }
+  .headnavigatie {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    right: 5px;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(224, 224, 224);
+  }
+  .headnavigatie a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    border-color: black;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    opacity: 0.8;
+  }
+  .headnavigatie a:hover {
+    display: inline-block;
+    background-color: rgb(83, 83, 83);
+    padding: 15px 5px 15px;
+    color: #f2f2f2;
+  }
+  .container {
+    display: grid;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 250px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "Zu Ze Bi"
+      "bisal clown bosbes";
+  }
+  .Zu {
+    background-color: rgb(243, 243, 243);
+    border-top: 2px rgb(36, 36, 36) solid;
+    border-right: 2px rgb(36, 36, 36) solid;
+    border-bottom: 8px rgb(0, 0, 0) solid;
+    border-left: 8px rgb(0, 0, 0) solid;
+    grid-area: Zu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Ze {
+    background-color: rgb(243, 243, 243);
+    border-top: 2px rgb(36, 36, 36) solid;
+    border-right: 2px rgb(36, 36, 36) solid;
+    border-bottom: 8px rgb(0, 0, 0) solid;
+    border-left: 8px rgb(0, 0, 0) solid;
+    grid-area: Ze;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bi {
+    background-color: rgb(243, 243, 243);
+    border-top: 2px rgb(36, 36, 36) solid;
+    border-right: 2px rgb(36, 36, 36) solid;
+    border-bottom: 8px rgb(0, 0, 0) solid;
+    border-left: 8px rgb(0, 0, 0) solid;
+    grid-area: Bi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Bisal {
+    background-color: rgb(243, 243, 243);
+    border-top: 2px rgb(36, 36, 36) solid;
+    border-right: 2px rgb(36, 36, 36) solid;
+    border-bottom: 8px rgb(0, 0, 0) solid;
+    border-left: 8px rgb(0, 0, 0) solid;
+    grid-area: bisal;
+    overflow: auto;
+  }
+  .bisalimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bisaltext {
+    position: relative;
+    right: 2px;
+    font-size: 16px;
+  }
+  .clown {
+    background-color: rgb(243, 243, 243);
+    border-top: 2px rgb(36, 36, 36) solid;
+    border-right: 2px rgb(36, 36, 36) solid;
+    border-bottom: 8px rgb(0, 0, 0) solid;
+    border-left: 8px rgb(0, 0, 0) solid;
+    grid-area: clown;
+    overflow: auto;
+  }
+  .clownimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clowntext {
+    position: relative;
+    right: 2px;
+    font-size: 16px;
+  }
+  .bosbes {
+    background-color: rgb(243, 243, 243);
+    border-top: 2px rgb(36, 36, 36) solid;
+    border-right: 2px rgb(36, 36, 36) solid;
+    border-bottom: 8px rgb(0, 0, 0) solid;
+    border-left: 8px rgb(0, 0, 0) solid;
+    grid-area: bosbes;
+    overflow: auto;
+  }
+  .bosbesimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bosbestext {
+    position: relative;
+    right: 2px;
+    font-size: 16px;
+  }
+}

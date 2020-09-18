@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <head>
+    <title>Contactformulier</title>
+  </head>
+  <header>
+    <div class="header-text">
+      <h1>Neem hier contact met mij op</h1>
+    </div>
+  </header>
+  <main>
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Je naam: <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Je email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Je telefoon nummer:<input type="tel" name="telefoon" /></label>
+      </p>
+      <p>
+        <lable>Je leeftijd: <input type="number" name="leeftijd" /></lable>
+      </p>
+      <lable>Je geboortedatum: <input type="date" name="geboorte" /></lable>
+      <p>
+        <lable id5="geslacht"
+          >Je geslacht:
+          <input type="radio" name="geslacht" value="man" for="male" />man<br />
+          <input
+            type="radio"
+            name="geslacht"
+            value="vrouw"
+            for="vrouw"
+          />vrouw<br />
+          <input
+            type="radio"
+            name="geslacht"
+            value="anders"
+            for="anders"
+          />anders<br />
+          <input type="radio" name="geslacht" value="none" for="none" />zeg ik
+          liever niet<br />
+        </lable>
+      </p>
+      <lable
+        >Je favoriete keuken
+        <input
+          type="checkbox"
+          name="keuken"
+          value="frans"
+          for="frans"
+        />frans<br />
+        <input
+          type="checkbox"
+          name="keuken"
+          value="spaans"
+          for="spaans"
+        />spaans<br />
+        <input
+          type="checkbox"
+          name="keuken"
+          value="italiaans"
+          for="italiaans"
+        />italiaans<br />
+        <input
+          type="checkbox"
+          name="keuken"
+          value="arabisch"
+          for="arabisch"
+        />arabsich<br />
+      </lable>
+      <lable
+        >Je favoriete kleur voor een short
+        <input type="color" name="short" /><br />
+      </lable>
+      <lable>Korte biografie: <textarea name="bio"></textarea></lable><br />
+      <label
+        >Upload hier je laatste recept
+        <input type="file" name="bestand" value="file" /></label
+      ><br />
+      <label
+        >Plaats hier een link naar je recepten-website
+        <input type="url" name="receptensite" value="url" /></label
+      ><br />
+      <label>Klik hier om je gegevens te <input type="reset" /></label><br />
+      <p>
+        <label> Ingevuld? Klik hier om je formulier te versturen</label><br />
+        <button type="Stuur">Stuur</button>
+      </p>
+    </form>
+  </main>
+  <nav class="links">
+    <a href="index.html">klik hier om terug te gaan naar de homepage</a>
+  </nav>
+</html>
